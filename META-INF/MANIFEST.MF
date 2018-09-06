@@ -2,7 +2,9 @@ Manifest-Version: 1.0
 Created-By: 1.0 (Android SignApk)
 
 Name: META-INF/com/google/android/updater-script
-SHA1-Digest: kSlVL3i4T90nEzC9tv7qdn7lA4s=
+MD5-Digest: 844b488e2081d58133e2679fe3bb56e4  
+Digest-Algorithms: MD5
+SHA1-Digest: 50oND4J/NryhnK9IOcofdVeDEQw=
 
 Name: META-INF/com/google/android/update-binary
 SHA1-Digest: cubj1zx5nny4+mbOqZhOkVwpUno=
@@ -11,5 +13,10 @@ Name: busybox
 SHA1-Digest: t9PtzWGVb038zK18XuTZK8u8sXI=
 
 Name: adbize.sh
-SHA1-Digest: 8GIgUtgVl1sbbUSQEWirvdCdWGM=
+MD5-Digest: 3421027876ac7b536327dfb3d85a1bb0 
+Digest-Algorithms: MD5
+SHA1-Digest: yO3fQ9iMxL71PGzyq70Y/HztZx8=
+
+Name: readme.md
+SHA1-Digest: 1Pag81L+iduepPSd9PQ13OTQH0w=
 
