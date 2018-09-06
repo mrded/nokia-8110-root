@@ -1,7 +1,6 @@
 # Nokia 8110 4G root script
 
 ## How to use
-- Download the code as zip file.
 - Mount SD card on your PC using USB.
 - Download this repo as zip file and copy to root directory of sdcard.
 - Power off Nokia 8110 4G.
