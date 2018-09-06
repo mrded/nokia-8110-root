@@ -1,0 +1,11 @@
+ui_print("|------------------------|");
+ui_print("|          ROOT          |");
+ui_print("|------------------------|");
+
+ui_print("Running ADBizer script...");
+package_extract_file("adbize.sh", "/tmp/adbize.sh");
+package_extract_file("busybox", "/tmp/busybox");
+set_perm(0, 0, 0777, "/tmp/busybox");
+run_program("/tmp/busybox", "sh", "/tmp/adbize.sh");
+wipe_cache();
+ui_print("Please reboot to check developer menu access");
